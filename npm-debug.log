@@ -1,0 +1,1605 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'link' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose node symlink /usr/bin/node
+5 verbose linkPkg /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints
+6 verbose link build target /usr/lib/node_modules/generator-blueprints
+7 verbose install where,what [ '/vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints',
+7 verbose install   [] ]
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ '/vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints',
+9 verbose install   [ 'yeoman-generator', 'chalk', 'yosay', 'mocha' ] ]
+10 info preinstall generator-blueprints@0.0.0
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'chalk@~0.4.0', null ]
+13 verbose cache add name=undefined spec="chalk@~0.4.0" args=["chalk@~0.4.0",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'chalk@~0.4.0',
+14 verbose parsed url   path: 'chalk@~0.4.0',
+14 verbose parsed url   href: 'chalk@~0.4.0' }
+15 verbose cache add name="chalk" spec="~0.4.0" args=["chalk","~0.4.0"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '~0.4.0',
+16 verbose parsed url   path: '~0.4.0',
+16 verbose parsed url   href: '~0.4.0' }
+17 verbose addNamed [ 'chalk', '~0.4.0' ]
+18 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+19 verbose cache add [ 'yosay@^0.1.0', null ]
+20 verbose cache add name=undefined spec="yosay@^0.1.0" args=["yosay@^0.1.0",null]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'yosay@^0.1.0',
+21 verbose parsed url   path: 'yosay@^0.1.0',
+21 verbose parsed url   href: 'yosay@^0.1.0' }
+22 verbose cache add [ 'mocha@*', null ]
+23 verbose cache add name=undefined spec="mocha@*" args=["mocha@*",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'mocha@*',
+24 verbose parsed url   path: 'mocha@*',
+24 verbose parsed url   href: 'mocha@*' }
+25 verbose cache add [ 'yeoman-generator@~0.16.0', null ]
+26 verbose cache add name=undefined spec="yeoman-generator@~0.16.0" args=["yeoman-generator@~0.16.0",null]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: 'yeoman-generator@~0.16.0',
+27 verbose parsed url   path: 'yeoman-generator@~0.16.0',
+27 verbose parsed url   href: 'yeoman-generator@~0.16.0' }
+28 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+29 verbose lock chalk@~0.4.0 /home/vagrant/.npm/bc9fb696-chalk-0-4-0.lock
+30 verbose cache add name="yosay" spec="^0.1.0" args=["yosay","^0.1.0"]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: '^0.1.0',
+31 verbose parsed url   path: '^0.1.0',
+31 verbose parsed url   href: '^0.1.0' }
+32 verbose addNamed [ 'yosay', '^0.1.0' ]
+33 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+34 silly lockFile b3bed354-yosay-0-1-0 yosay@^0.1.0
+35 verbose lock yosay@^0.1.0 /home/vagrant/.npm/b3bed354-yosay-0-1-0.lock
+36 verbose cache add name="mocha" spec="*" args=["mocha","*"]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '*',
+37 verbose parsed url   path: '*',
+37 verbose parsed url   href: '*' }
+38 verbose addNamed [ 'mocha', '*' ]
+39 verbose addNamed [ null, '*' ]
+40 silly lockFile 4d0fa87f-mocha mocha@*
+41 verbose lock mocha@* /home/vagrant/.npm/4d0fa87f-mocha.lock
+42 verbose cache add name="yeoman-generator" spec="~0.16.0" args=["yeoman-generator","~0.16.0"]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: '~0.16.0',
+43 verbose parsed url   path: '~0.16.0',
+43 verbose parsed url   href: '~0.16.0' }
+44 verbose addNamed [ 'yeoman-generator', '~0.16.0' ]
+45 verbose addNamed [ null, '>=0.16.0-0 <0.17.0-0' ]
+46 silly lockFile 2e41e071-yeoman-generator-0-16-0 yeoman-generator@~0.16.0
+47 verbose lock yeoman-generator@~0.16.0 /home/vagrant/.npm/2e41e071-yeoman-generator-0-16-0.lock
+48 silly addNameRange { name: 'chalk', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+49 silly addNameRange { name: 'yosay', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+50 silly addNameRange { name: 'mocha', range: '*', hasData: false }
+51 silly addNameRange { name: 'yeoman-generator',
+51 silly addNameRange   range: '>=0.16.0-0 <0.17.0-0',
+51 silly addNameRange   hasData: false }
+52 verbose url raw chalk
+53 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+54 verbose url resolved https://registry.npmjs.org/chalk
+55 info trying registry request attempt 1 at 19:34:33
+56 verbose etag "6ZTS04QFWCEG18AY1OIGTGPSZ"
+57 http GET https://registry.npmjs.org/chalk
+58 verbose url raw yosay
+59 verbose url resolving [ 'https://registry.npmjs.org/', './yosay' ]
+60 verbose url resolved https://registry.npmjs.org/yosay
+61 info trying registry request attempt 1 at 19:34:33
+62 verbose etag "22C82TD4EXBJBTWXQQ9AKO5U4"
+63 http GET https://registry.npmjs.org/yosay
+64 verbose url raw mocha
+65 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+66 verbose url resolved https://registry.npmjs.org/mocha
+67 info trying registry request attempt 1 at 19:34:33
+68 verbose etag "BAWLSNKUHQU0VM3GE4YO5U80T"
+69 http GET https://registry.npmjs.org/mocha
+70 verbose url raw yeoman-generator
+71 verbose url resolving [ 'https://registry.npmjs.org/', './yeoman-generator' ]
+72 verbose url resolved https://registry.npmjs.org/yeoman-generator
+73 info trying registry request attempt 1 at 19:34:33
+74 verbose etag "87UBZ88DV8GEHCGNOZO9BF7RB"
+75 http GET https://registry.npmjs.org/yeoman-generator
+76 http 304 https://registry.npmjs.org/chalk
+77 silly registry.get cb [ 304,
+77 silly registry.get   { date: 'Sat, 01 Nov 2014 19:34:38 GMT',
+77 silly registry.get     server: 'Apache',
+77 silly registry.get     via: '1.1 varnish',
+77 silly registry.get     'last-modified': 'Sat, 01 Nov 2014 19:34:38 GMT',
+77 silly registry.get     'cache-control': 'max-age=60',
+77 silly registry.get     etag: '"6ZTS04QFWCEG18AY1OIGTGPSZ"',
+77 silly registry.get     age: '43',
+77 silly registry.get     'x-served-by': 'cache-ams4142-AMS',
+77 silly registry.get     'x-cache': 'HIT',
+77 silly registry.get     'x-cache-hits': '1',
+77 silly registry.get     'x-timer': 'S1414870478.686075,VS0,VE0',
+77 silly registry.get     vary: 'Accept',
+77 silly registry.get     'content-length': '0',
+77 silly registry.get     'keep-alive': 'timeout=10, max=50',
+77 silly registry.get     connection: 'Keep-Alive' } ]
+78 verbose etag chalk from cache
+79 http 304 https://registry.npmjs.org/mocha
+80 silly registry.get cb [ 304,
+80 silly registry.get   { date: 'Sat, 01 Nov 2014 19:34:38 GMT',
+80 silly registry.get     server: 'Apache',
+80 silly registry.get     via: '1.1 varnish',
+80 silly registry.get     'last-modified': 'Sat, 01 Nov 2014 19:34:38 GMT',
+80 silly registry.get     'cache-control': 'max-age=60',
+80 silly registry.get     etag: '"BAWLSNKUHQU0VM3GE4YO5U80T"',
+80 silly registry.get     age: '33',
+80 silly registry.get     'x-served-by': 'cache-ams4122-AMS',
+80 silly registry.get     'x-cache': 'HIT',
+80 silly registry.get     'x-cache-hits': '1',
+80 silly registry.get     'x-timer': 'S1414870478.694499,VS0,VE0',
+80 silly registry.get     vary: 'Accept',
+80 silly registry.get     'content-length': '0',
+80 silly registry.get     'keep-alive': 'timeout=10, max=50',
+80 silly registry.get     connection: 'Keep-Alive' } ]
+81 verbose etag mocha from cache
+82 silly addNameRange number 2 { name: 'chalk', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+83 silly addNameRange versions [ 'chalk',
+83 silly addNameRange   [ '0.1.0',
+83 silly addNameRange     '0.1.1',
+83 silly addNameRange     '0.2.0',
+83 silly addNameRange     '0.2.1',
+83 silly addNameRange     '0.3.0',
+83 silly addNameRange     '0.4.0',
+83 silly addNameRange     '0.5.0',
+83 silly addNameRange     '0.5.1' ] ]
+84 verbose addNamed [ 'chalk', '0.4.0' ]
+85 verbose addNamed [ '0.4.0', '0.4.0' ]
+86 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+87 verbose lock chalk@0.4.0 /home/vagrant/.npm/1efe4790-chalk-0-4-0.lock
+88 silly addNameRange number 2 { name: 'mocha', range: '*', hasData: true }
+89 silly addNameRange versions [ 'mocha',
+89 silly addNameRange   [ '0.0.1-alpha1',
+89 silly addNameRange     '0.0.1-alpha2',
+89 silly addNameRange     '0.0.1-alpha3',
+89 silly addNameRange     '0.0.1-alpha4',
+89 silly addNameRange     '0.0.1-alpha5',
+89 silly addNameRange     '0.0.1-alpha6',
+89 silly addNameRange     '0.0.1',
+89 silly addNameRange     '0.0.2',
+89 silly addNameRange     '0.0.3',
+89 silly addNameRange     '0.0.4',
+89 silly addNameRange     '0.0.5',
+89 silly addNameRange     '0.0.6',
+89 silly addNameRange     '0.0.7',
+89 silly addNameRange     '0.0.8',
+89 silly addNameRange     '0.1.0',
+89 silly addNameRange     '0.2.0',
+89 silly addNameRange     '0.3.0',
+89 silly addNameRange     '0.3.1',
+89 silly addNameRange     '0.3.2',
+89 silly addNameRange     '0.3.3',
+89 silly addNameRange     '0.3.4',
+89 silly addNameRange     '0.3.6',
+89 silly addNameRange     '0.4.0',
+89 silly addNameRange     '0.5.0',
+89 silly addNameRange     '0.6.0',
+89 silly addNameRange     '0.7.0',
+89 silly addNameRange     '0.7.1',
+89 silly addNameRange     '0.8.0',
+89 silly addNameRange     '0.8.1',
+89 silly addNameRange     '0.9.0',
+89 silly addNameRange     '0.10.0',
+89 silly addNameRange     '0.10.1',
+89 silly addNameRange     '0.10.2',
+89 silly addNameRange     '0.11.0',
+89 silly addNameRange     '0.12.0',
+89 silly addNameRange     '0.12.1',
+89 silly addNameRange     '0.13.0',
+89 silly addNameRange     '0.14.0',
+89 silly addNameRange     '0.14.1',
+89 silly addNameRange     '1.0.0',
+89 silly addNameRange     '1.0.1',
+89 silly addNameRange     '1.0.2',
+89 silly addNameRange     '1.0.3',
+89 silly addNameRange     '1.1.0',
+89 silly addNameRange     '1.2.0',
+89 silly addNameRange     '1.2.1',
+89 silly addNameRange     '1.2.2',
+89 silly addNameRange     '1.3.0',
+89 silly addNameRange     '1.3.1',
+89 silly addNameRange     '1.3.2',
+89 silly addNameRange     '1.4.0',
+89 silly addNameRange     '1.4.1',
+89 silly addNameRange     '1.4.2',
+89 silly addNameRange     '1.4.3',
+89 silly addNameRange     '1.5.0',
+89 silly addNameRange     '1.6.0',
+89 silly addNameRange     '1.7.0',
+89 silly addNameRange     '1.7.1',
+89 silly addNameRange     '1.7.2',
+89 silly addNameRange     '1.7.3',
+89 silly addNameRange     '1.7.4',
+89 silly addNameRange     '1.8.0',
+89 silly addNameRange     '1.8.1',
+89 silly addNameRange     '1.8.2',
+89 silly addNameRange     '1.9.0',
+89 silly addNameRange     '1.10.0',
+89 silly addNameRange     '1.11.0',
+89 silly addNameRange     '1.12.0',
+89 silly addNameRange     '1.12.1',
+89 silly addNameRange     '1.13.0',
+89 silly addNameRange     '1.14.0',
+89 silly addNameRange     '1.15.0',
+89 silly addNameRange     '1.15.1',
+89 silly addNameRange     '1.16.0',
+89 silly addNameRange     '1.16.1',
+89 silly addNameRange     '1.16.2',
+89 silly addNameRange     '1.17.0',
+89 silly addNameRange     '1.17.1',
+89 silly addNameRange     '1.18.0',
+89 silly addNameRange     '1.18.1',
+89 silly addNameRange     '1.18.2',
+89 silly addNameRange     '1.19.0',
+89 silly addNameRange     '1.20.0',
+89 silly addNameRange     '1.20.1',
+89 silly addNameRange     '1.21.0',
+89 silly addNameRange     '1.21.1',
+89 silly addNameRange     '1.21.2',
+89 silly addNameRange     '1.21.3',
+89 silly addNameRange     '1.21.4',
+89 silly addNameRange     '1.21.5',
+89 silly addNameRange     '2.0.0',
+89 silly addNameRange     '2.0.1' ] ]
+90 verbose addNamed [ 'mocha', '2.0.1' ]
+91 verbose addNamed [ '2.0.1', '2.0.1' ]
+92 silly lockFile 5f39746a-mocha-2-0-1 mocha@2.0.1
+93 verbose lock mocha@2.0.1 /home/vagrant/.npm/5f39746a-mocha-2-0-1.lock
+94 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+95 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+96 silly lockFile 5f39746a-mocha-2-0-1 mocha@2.0.1
+97 silly lockFile 5f39746a-mocha-2-0-1 mocha@2.0.1
+98 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+99 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+100 silly lockFile 4d0fa87f-mocha mocha@*
+101 silly lockFile 4d0fa87f-mocha mocha@*
+102 http 304 https://registry.npmjs.org/yeoman-generator
+103 silly registry.get cb [ 304,
+103 silly registry.get   { date: 'Sat, 01 Nov 2014 19:34:38 GMT',
+103 silly registry.get     server: 'Apache',
+103 silly registry.get     via: '1.1 varnish',
+103 silly registry.get     'last-modified': 'Sat, 01 Nov 2014 19:34:39 GMT',
+103 silly registry.get     'cache-control': 'max-age=60',
+103 silly registry.get     etag: '"87UBZ88DV8GEHCGNOZO9BF7RB"',
+103 silly registry.get     age: '0',
+103 silly registry.get     'x-served-by': 'cache-ams4144-AMS',
+103 silly registry.get     'x-cache': 'HIT',
+103 silly registry.get     'x-cache-hits': '1',
+103 silly registry.get     'x-timer': 'S1414870478.698825,VS0,VE380',
+103 silly registry.get     vary: 'Accept',
+103 silly registry.get     'content-length': '0',
+103 silly registry.get     'keep-alive': 'timeout=10, max=50',
+103 silly registry.get     connection: 'Keep-Alive' } ]
+104 verbose etag yeoman-generator from cache
+105 http 304 https://registry.npmjs.org/yosay
+106 silly registry.get cb [ 304,
+106 silly registry.get   { date: 'Sat, 01 Nov 2014 19:34:38 GMT',
+106 silly registry.get     server: 'Apache',
+106 silly registry.get     via: '1.1 varnish',
+106 silly registry.get     'last-modified': 'Sat, 01 Nov 2014 19:34:39 GMT',
+106 silly registry.get     'cache-control': 'max-age=60',
+106 silly registry.get     etag: '"22C82TD4EXBJBTWXQQ9AKO5U4"',
+106 silly registry.get     age: '0',
+106 silly registry.get     'x-served-by': 'cache-ams4139-AMS',
+106 silly registry.get     'x-cache': 'HIT',
+106 silly registry.get     'x-cache-hits': '1',
+106 silly registry.get     'x-timer': 'S1414870478.710762,VS0,VE380',
+106 silly registry.get     vary: 'Accept',
+106 silly registry.get     'content-length': '0',
+106 silly registry.get     'keep-alive': 'timeout=10, max=50',
+106 silly registry.get     connection: 'Keep-Alive' } ]
+107 verbose etag yosay from cache
+108 silly addNameRange number 2 { name: 'yeoman-generator',
+108 silly addNameRange   range: '>=0.16.0-0 <0.17.0-0',
+108 silly addNameRange   hasData: true }
+109 silly addNameRange versions [ 'yeoman-generator',
+109 silly addNameRange   [ '0.10.0',
+109 silly addNameRange     '0.10.1',
+109 silly addNameRange     '0.10.2',
+109 silly addNameRange     '0.10.3',
+109 silly addNameRange     '0.10.4',
+109 silly addNameRange     '0.10.5',
+109 silly addNameRange     '0.11.0',
+109 silly addNameRange     '0.11.1',
+109 silly addNameRange     '0.11.2',
+109 silly addNameRange     '0.11.3',
+109 silly addNameRange     '0.11.4',
+109 silly addNameRange     '0.12.0',
+109 silly addNameRange     '0.12.1',
+109 silly addNameRange     '0.12.2',
+109 silly addNameRange     '0.12.3',
+109 silly addNameRange     '0.13.0',
+109 silly addNameRange     '0.13.1',
+109 silly addNameRange     '0.13.2',
+109 silly addNameRange     '0.13.3',
+109 silly addNameRange     '0.13.4',
+109 silly addNameRange     '0.14.0-rc.1',
+109 silly addNameRange     '0.14.0-rc.2',
+109 silly addNameRange     '0.14.0',
+109 silly addNameRange     '0.14.1',
+109 silly addNameRange     '0.14.2',
+109 silly addNameRange     '0.15.0-pre.1',
+109 silly addNameRange     '0.15.0-pre.2',
+109 silly addNameRange     '0.15.0-pre.3',
+109 silly addNameRange     '0.15.0',
+109 silly addNameRange     '0.16.0',
+109 silly addNameRange     '0.17.0-pre.1',
+109 silly addNameRange     '0.17.0-pre.2',
+109 silly addNameRange     '0.17.0-pre.3',
+109 silly addNameRange     '0.17.0-pre.4',
+109 silly addNameRange     '0.17.0',
+109 silly addNameRange     '0.17.1',
+109 silly addNameRange     '0.17.2',
+109 silly addNameRange     '0.17.3',
+109 silly addNameRange     '0.17.4',
+109 silly addNameRange     '0.17.5',
+109 silly addNameRange     '0.17.6',
+109 silly addNameRange     '0.17.7' ] ]
+110 verbose addNamed [ 'yeoman-generator', '0.16.0' ]
+111 verbose addNamed [ '0.16.0', '0.16.0' ]
+112 silly lockFile 7ecb361d-yeoman-generator-0-16-0 yeoman-generator@0.16.0
+113 verbose lock yeoman-generator@0.16.0 /home/vagrant/.npm/7ecb361d-yeoman-generator-0-16-0.lock
+114 silly addNameRange number 2 { name: 'yosay', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+115 silly addNameRange versions [ 'yosay', [ '0.1.0', '0.2.0', '0.2.1', '0.3.0', '1.0.0' ] ]
+116 verbose addNamed [ 'yosay', '0.1.0' ]
+117 verbose addNamed [ '0.1.0', '0.1.0' ]
+118 silly lockFile 4c3fea59-yosay-0-1-0 yosay@0.1.0
+119 verbose lock yosay@0.1.0 /home/vagrant/.npm/4c3fea59-yosay-0-1-0.lock
+120 silly lockFile 7ecb361d-yeoman-generator-0-16-0 yeoman-generator@0.16.0
+121 silly lockFile 7ecb361d-yeoman-generator-0-16-0 yeoman-generator@0.16.0
+122 silly lockFile 2e41e071-yeoman-generator-0-16-0 yeoman-generator@~0.16.0
+123 silly lockFile 2e41e071-yeoman-generator-0-16-0 yeoman-generator@~0.16.0
+124 silly lockFile 4c3fea59-yosay-0-1-0 yosay@0.1.0
+125 silly lockFile 4c3fea59-yosay-0-1-0 yosay@0.1.0
+126 silly lockFile b3bed354-yosay-0-1-0 yosay@^0.1.0
+127 silly lockFile b3bed354-yosay-0-1-0 yosay@^0.1.0
+128 silly resolved [ { name: 'chalk',
+128 silly resolved     version: '0.4.0',
+128 silly resolved     description: 'Terminal string styling done right. Created because the `colors` module does some really horrible things.',
+128 silly resolved     license: 'MIT',
+128 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/chalk' },
+128 silly resolved     author:
+128 silly resolved      { name: 'Sindre Sorhus',
+128 silly resolved        email: 'sindresorhus@gmail.com',
+128 silly resolved        url: 'http://sindresorhus.com' },
+128 silly resolved     engines: { node: '>=0.8.0' },
+128 silly resolved     scripts: { test: 'mocha' },
+128 silly resolved     files: [ 'index.js' ],
+128 silly resolved     keywords:
+128 silly resolved      [ 'color',
+128 silly resolved        'colour',
+128 silly resolved        'colors',
+128 silly resolved        'terminal',
+128 silly resolved        'console',
+128 silly resolved        'cli',
+128 silly resolved        'string',
+128 silly resolved        'ansi',
+128 silly resolved        'styles',
+128 silly resolved        'tty',
+128 silly resolved        'formatting',
+128 silly resolved        'rgb',
+128 silly resolved        '256',
+128 silly resolved        'shell',
+128 silly resolved        'xterm',
+128 silly resolved        'log',
+128 silly resolved        'logging',
+128 silly resolved        'command-line',
+128 silly resolved        'text' ],
+128 silly resolved     dependencies:
+128 silly resolved      { 'has-color': '~0.1.0',
+128 silly resolved        'ansi-styles': '~1.0.0',
+128 silly resolved        'strip-ansi': '~0.1.0' },
+128 silly resolved     devDependencies: { mocha: '~1.x' },
+128 silly resolved     bugs: { url: 'https://github.com/sindresorhus/chalk/issues' },
+128 silly resolved     homepage: 'https://github.com/sindresorhus/chalk',
+128 silly resolved     _id: 'chalk@0.4.0',
+128 silly resolved     dist:
+128 silly resolved      { shasum: '5199a3ddcd0c1efe23bc08c1b027b06176e0c64f',
+128 silly resolved        tarball: 'http://registry.npmjs.org/chalk/-/chalk-0.4.0.tgz' },
+128 silly resolved     _from: 'chalk@~0.4.0',
+128 silly resolved     _npmVersion: '1.3.17',
+128 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+128 silly resolved     maintainers: [ [Object] ],
+128 silly resolved     directories: {},
+128 silly resolved     _shasum: '5199a3ddcd0c1efe23bc08c1b027b06176e0c64f',
+128 silly resolved     _resolved: 'https://registry.npmjs.org/chalk/-/chalk-0.4.0.tgz',
+128 silly resolved     readme: 'ERROR: No README data found!' },
+128 silly resolved   { name: 'mocha',
+128 silly resolved     version: '2.0.1',
+128 silly resolved     description: 'simple, flexible, fun test framework',
+128 silly resolved     keywords: [ 'mocha', 'test', 'bdd', 'tdd', 'tap' ],
+128 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+128 silly resolved     contributors:
+128 silly resolved      [ [Object],
+128 silly resolved        [Object],
+128 silly resolved        [Object],
+128 silly resolved        [Object],
+128 silly resolved        [Object],
+128 silly resolved        [Object],
+128 silly resolved        [Object],
+128 silly resolved        [Object] ],
+128 silly resolved     repository: { type: 'git', url: 'git://github.com/mochajs/mocha.git' },
+128 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+128 silly resolved     main: './index',
+128 silly resolved     browser: './mocha.js',
+128 silly resolved     bin: { mocha: './bin/mocha', _mocha: './bin/_mocha' },
+128 silly resolved     engines: { node: '>= 0.8.x' },
+128 silly resolved     scripts: { test: 'make test-all' },
+128 silly resolved     dependencies:
+128 silly resolved      { commander: '2.3.0',
+128 silly resolved        debug: '2.0.0',
+128 silly resolved        diff: '1.0.8',
+128 silly resolved        'escape-string-regexp': '1.0.2',
+128 silly resolved        glob: '3.2.3',
+128 silly resolved        growl: '1.8.1',
+128 silly resolved        jade: '0.26.3',
+128 silly resolved        mkdirp: '0.5.0' },
+128 silly resolved     devDependencies: { 'coffee-script': '~1.8.0', should: '~4.0.0' },
+128 silly resolved     files:
+128 silly resolved      [ 'bin',
+128 silly resolved        'images',
+128 silly resolved        'lib',
+128 silly resolved        'index.js',
+128 silly resolved        'mocha.css',
+128 silly resolved        'mocha.js',
+128 silly resolved        'LICENSE' ],
+128 silly resolved     licenses: [ [Object] ],
+128 silly resolved     bugs: { url: 'https://github.com/mochajs/mocha/issues' },
+128 silly resolved     homepage: 'https://github.com/mochajs/mocha',
+128 silly resolved     _id: 'mocha@2.0.1',
+128 silly resolved     _shasum: '5a16e88b856d0c4145d8c6888c27ebd4fab13e90',
+128 silly resolved     _from: 'mocha@*',
+128 silly resolved     _npmVersion: '1.4.9',
+128 silly resolved     _npmUser: { name: 'travisjeffery', email: 'tj@travisjeffery.com' },
+128 silly resolved     dist:
+128 silly resolved      { shasum: '5a16e88b856d0c4145d8c6888c27ebd4fab13e90',
+128 silly resolved        tarball: 'http://registry.npmjs.org/mocha/-/mocha-2.0.1.tgz' },
+128 silly resolved     directories: {},
+128 silly resolved     _resolved: 'https://registry.npmjs.org/mocha/-/mocha-2.0.1.tgz',
+128 silly resolved     readme: 'ERROR: No README data found!' },
+128 silly resolved   { name: 'yeoman-generator',
+128 silly resolved     version: '0.16.0',
+128 silly resolved     description: 'Rails-inspired generator system that provides scaffolding for your apps',
+128 silly resolved     license: 'BSD',
+128 silly resolved     keywords:
+128 silly resolved      [ 'development',
+128 silly resolved        'dev',
+128 silly resolved        'build',
+128 silly resolved        'tool',
+128 silly resolved        'cli',
+128 silly resolved        'scaffold',
+128 silly resolved        'generate' ],
+128 silly resolved     homepage: 'http://yeoman.io',
+128 silly resolved     bugs: { url: 'https://github.com/yeoman/generator/issues' },
+128 silly resolved     author: { name: 'Chrome Developer Relations' },
+128 silly resolved     main: 'main.js',
+128 silly resolved     repository: { type: 'git', url: 'git://github.com/yeoman/generator.git' },
+128 silly resolved     scripts:
+128 silly resolved      { test: 'gulp',
+128 silly resolved        doc: 'jsdoc -c ./jsdoc.json',
+128 silly resolved        legacy: 'mocha test/legacy.js --reporter dot --timeout 100000',
+128 silly resolved        'test-generator': 'mocha test/generators/*.js --reporter spec --timeout 100000' },
+128 silly resolved     dependencies:
+128 silly resolved      { cheerio: '~0.13.0',
+128 silly resolved        rimraf: '~2.2.0',
+128 silly resolved        diff: '~1.0.4',
+128 silly resolved        mime: '~1.2.9',
+128 silly resolved        'underscore.string': '~2.3.1',
+128 silly resolved        lodash: '~2.4.1',
+128 silly resolved        mkdirp: '~0.3.5',
+128 silly resolved        glob: '~3.2.0',
+128 silly resolved        debug: '~0.7.2',
+128 silly resolved        isbinaryfile: '~2.0.0',
+128 silly resolved        dargs: '~0.1.0',
+128 silly resolved        async: '~0.2.8',
+128 silly resolved        inquirer: '~0.4.0',
+128 silly resolved        'iconv-lite': '~0.2.10',
+128 silly resolved        shelljs: '~0.2.6',
+128 silly resolved        'findup-sync': '~0.1.2',
+128 silly resolved        chalk: '~0.4.0',
+128 silly resolved        'text-table': '~0.2.0',
+128 silly resolved        download: '~0.1.6',
+128 silly resolved        request: '~2.30.0',
+128 silly resolved        'file-utils': '~0.1.1',
+128 silly resolved        'class-extend': '~0.1.0' },
+128 silly resolved     devDependencies:
+128 silly resolved      { proxyquire: '~0.5.1',
+128 silly resolved        sinon: '~1.7.3',
+128 silly resolved        coveralls: '~2.6.0',
+128 silly resolved        gulp: '~3.2.1',
+128 silly resolved        'gulp-mocha': '~0.1.1',
+128 silly resolved        'gulp-jshint': '~1.3.2',
+128 silly resolved        'jshint-stylish': '~0.1.4',
+128 silly resolved        'gulp-jscs': '~0.1.1',
+128 silly resolved        'gulp-istanbul': '~0.1.0' },
+128 silly resolved     _id: 'yeoman-generator@0.16.0',
+128 silly resolved     dist:
+128 silly resolved      { shasum: '0d1b655ea31660ab66837af1e686b795eae57c59',
+128 silly resolved        tarball: 'http://registry.npmjs.org/yeoman-generator/-/yeoman-generator-0.16.0.tgz' },
+128 silly resolved     _from: 'yeoman-generator@~0.16.0',
+128 silly resolved     _npmVersion: '1.3.5',
+128 silly resolved     _npmUser: { name: 'sboudrias', email: 'admin@simonboudrias.com' },
+128 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+128 silly resolved     directories: {},
+128 silly resolved     _shasum: '0d1b655ea31660ab66837af1e686b795eae57c59',
+128 silly resolved     _resolved: 'https://registry.npmjs.org/yeoman-generator/-/yeoman-generator-0.16.0.tgz',
+128 silly resolved     readme: 'ERROR: No README data found!' },
+128 silly resolved   { name: 'yosay',
+128 silly resolved     version: '0.1.0',
+128 silly resolved     description: 'Tell Yeoman what to say.',
+128 silly resolved     license: 'BSD',
+128 silly resolved     keywords: [ 'cli', 'bin', 'yeoman', 'cowsay' ],
+128 silly resolved     homepage: 'http://yeoman.io',
+128 silly resolved     author: { name: 'The Yeoman Team' },
+128 silly resolved     repository: { type: 'git', url: 'git://github.com/yeoman/yosay' },
+128 silly resolved     bin: { yosay: 'lib/cli.js' },
+128 silly resolved     main: 'lib/yosay.js',
+128 silly resolved     files: [ 'lib' ],
+128 silly resolved     engines: { node: '>=0.10.0' },
+128 silly resolved     scripts: { test: 'mocha' },
+128 silly resolved     dependencies:
+128 silly resolved      { 'pad-component': '0.0.1',
+128 silly resolved        'word-wrap': '^0.1.2',
+128 silly resolved        chalk: '^0.4.0',
+128 silly resolved        minimist: '0.0.9' },
+128 silly resolved     devDependencies: { mocha: '*' },
+128 silly resolved     bugs: { url: 'https://github.com/yeoman/yosay/issues' },
+128 silly resolved     _id: 'yosay@0.1.0',
+128 silly resolved     dist:
+128 silly resolved      { shasum: '1083395cab83a6a9ea45c5759d8c22d959ac740d',
+128 silly resolved        tarball: 'http://registry.npmjs.org/yosay/-/yosay-0.1.0.tgz' },
+128 silly resolved     _from: 'yosay@^0.1.0',
+128 silly resolved     _npmVersion: '1.4.3',
+128 silly resolved     _npmUser: { name: 'stephenplusplus', email: 'sawchuk@gmail.com' },
+128 silly resolved     maintainers: [ [Object] ],
+128 silly resolved     directories: {},
+128 silly resolved     _shasum: '1083395cab83a6a9ea45c5759d8c22d959ac740d',
+128 silly resolved     _resolved: 'https://registry.npmjs.org/yosay/-/yosay-0.1.0.tgz',
+128 silly resolved     readme: 'ERROR: No README data found!' } ]
+129 info install chalk@0.4.0 into /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints
+130 info install mocha@2.0.1 into /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints
+131 info install yeoman-generator@0.16.0 into /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints
+132 info install yosay@0.1.0 into /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints
+133 info installOne chalk@0.4.0
+134 info installOne mocha@2.0.1
+135 info installOne yeoman-generator@0.16.0
+136 info installOne yosay@0.1.0
+137 info /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk unbuild
+138 info /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay unbuild
+139 info /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yeoman-generator unbuild
+140 info /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/mocha unbuild
+141 verbose tar unpack /home/vagrant/.npm/chalk/0.4.0/package.tgz
+142 silly lockFile 393029c7-or-blueprints-node-modules-chalk tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk
+143 verbose lock tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk /home/vagrant/.npm/393029c7-or-blueprints-node-modules-chalk.lock
+144 silly lockFile 30788f8b-rant-npm-chalk-0-4-0-package-tgz tar:///home/vagrant/.npm/chalk/0.4.0/package.tgz
+145 verbose lock tar:///home/vagrant/.npm/chalk/0.4.0/package.tgz /home/vagrant/.npm/30788f8b-rant-npm-chalk-0-4-0-package-tgz.lock
+146 verbose tar unpack /home/vagrant/.npm/yosay/0.1.0/package.tgz
+147 silly lockFile 0aee3caf-or-blueprints-node-modules-yosay tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay
+148 verbose lock tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay /home/vagrant/.npm/0aee3caf-or-blueprints-node-modules-yosay.lock
+149 silly lockFile 6ef07e15-rant-npm-yosay-0-1-0-package-tgz tar:///home/vagrant/.npm/yosay/0.1.0/package.tgz
+150 verbose lock tar:///home/vagrant/.npm/yosay/0.1.0/package.tgz /home/vagrant/.npm/6ef07e15-rant-npm-yosay-0-1-0-package-tgz.lock
+151 silly gunzTarPerm modes [ '755', '644' ]
+152 silly gunzTarPerm modes [ '755', '644' ]
+153 silly gunzTarPerm extractEntry package.json
+154 silly gunzTarPerm extractEntry package.json
+155 silly gunzTarPerm extractEntry index.js
+156 silly gunzTarPerm extractEntry readme.md
+157 silly gunzTarPerm extractEntry lib/cli.js
+158 silly gunzTarPerm extractEntry lib/yosay.js
+159 verbose tar unpack /home/vagrant/.npm/yeoman-generator/0.16.0/package.tgz
+160 silly lockFile ab1327f9-ts-node-modules-yeoman-generator tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yeoman-generator
+161 verbose lock tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yeoman-generator /home/vagrant/.npm/ab1327f9-ts-node-modules-yeoman-generator.lock
+162 silly lockFile 2a542c02-man-generator-0-16-0-package-tgz tar:///home/vagrant/.npm/yeoman-generator/0.16.0/package.tgz
+163 verbose lock tar:///home/vagrant/.npm/yeoman-generator/0.16.0/package.tgz /home/vagrant/.npm/2a542c02-man-generator-0-16-0-package-tgz.lock
+164 silly gunzTarPerm modes [ '755', '644' ]
+165 silly gunzTarPerm extractEntry readme.md
+166 silly gunzTarPerm extractEntry package.json
+167 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+168 silly gunzTarPerm extractEntry gulpfile.js
+169 silly gunzTarPerm modified mode [ 'gulpfile.js', 438, 420 ]
+170 silly gunzTarPerm extractEntry main.js
+171 silly gunzTarPerm modified mode [ 'main.js', 438, 420 ]
+172 silly gunzTarPerm extractEntry lib/base.js
+173 silly gunzTarPerm modified mode [ 'lib/base.js', 438, 420 ]
+174 silly gunzTarPerm extractEntry lib/named-base.js
+175 silly gunzTarPerm modified mode [ 'lib/named-base.js', 438, 420 ]
+176 verbose tar unpack /home/vagrant/.npm/mocha/2.0.1/package.tgz
+177 silly lockFile e31bc98c-or-blueprints-node-modules-mocha tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/mocha
+178 verbose lock tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/mocha /home/vagrant/.npm/e31bc98c-or-blueprints-node-modules-mocha.lock
+179 silly lockFile 19c0cb85-rant-npm-mocha-2-0-1-package-tgz tar:///home/vagrant/.npm/mocha/2.0.1/package.tgz
+180 verbose lock tar:///home/vagrant/.npm/mocha/2.0.1/package.tgz /home/vagrant/.npm/19c0cb85-rant-npm-mocha-2-0-1-package-tgz.lock
+181 silly lockFile 393029c7-or-blueprints-node-modules-chalk tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk
+182 silly lockFile 393029c7-or-blueprints-node-modules-chalk tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk
+183 silly gunzTarPerm modes [ '755', '644' ]
+184 silly lockFile 30788f8b-rant-npm-chalk-0-4-0-package-tgz tar:///home/vagrant/.npm/chalk/0.4.0/package.tgz
+185 silly lockFile 30788f8b-rant-npm-chalk-0-4-0-package-tgz tar:///home/vagrant/.npm/chalk/0.4.0/package.tgz
+186 silly gunzTarPerm extractEntry lib/actions/actions.js
+187 silly gunzTarPerm modified mode [ 'lib/actions/actions.js', 438, 420 ]
+188 silly gunzTarPerm extractEntry lib/actions/fetch.js
+189 silly gunzTarPerm modified mode [ 'lib/actions/fetch.js', 438, 420 ]
+190 info preinstall chalk@0.4.0
+191 silly gunzTarPerm extractEntry package.json
+192 silly gunzTarPerm modified mode [ 'package.json', 388, 420 ]
+193 verbose readDependencies using package.json deps
+194 verbose readDependencies using package.json deps
+195 verbose cache add [ 'has-color@~0.1.0', null ]
+196 verbose cache add name=undefined spec="has-color@~0.1.0" args=["has-color@~0.1.0",null]
+197 verbose parsed url { protocol: null,
+197 verbose parsed url   slashes: null,
+197 verbose parsed url   auth: null,
+197 verbose parsed url   host: null,
+197 verbose parsed url   port: null,
+197 verbose parsed url   hostname: null,
+197 verbose parsed url   hash: null,
+197 verbose parsed url   search: null,
+197 verbose parsed url   query: null,
+197 verbose parsed url   pathname: 'has-color@~0.1.0',
+197 verbose parsed url   path: 'has-color@~0.1.0',
+197 verbose parsed url   href: 'has-color@~0.1.0' }
+198 verbose cache add [ 'ansi-styles@~1.0.0', null ]
+199 verbose cache add name=undefined spec="ansi-styles@~1.0.0" args=["ansi-styles@~1.0.0",null]
+200 verbose parsed url { protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: 'ansi-styles@~1.0.0',
+200 verbose parsed url   path: 'ansi-styles@~1.0.0',
+200 verbose parsed url   href: 'ansi-styles@~1.0.0' }
+201 verbose cache add [ 'strip-ansi@~0.1.0', null ]
+202 verbose cache add name=undefined spec="strip-ansi@~0.1.0" args=["strip-ansi@~0.1.0",null]
+203 verbose parsed url { protocol: null,
+203 verbose parsed url   slashes: null,
+203 verbose parsed url   auth: null,
+203 verbose parsed url   host: null,
+203 verbose parsed url   port: null,
+203 verbose parsed url   hostname: null,
+203 verbose parsed url   hash: null,
+203 verbose parsed url   search: null,
+203 verbose parsed url   query: null,
+203 verbose parsed url   pathname: 'strip-ansi@~0.1.0',
+203 verbose parsed url   path: 'strip-ansi@~0.1.0',
+203 verbose parsed url   href: 'strip-ansi@~0.1.0' }
+204 verbose cache add name="has-color" spec="~0.1.0" args=["has-color","~0.1.0"]
+205 verbose parsed url { protocol: null,
+205 verbose parsed url   slashes: null,
+205 verbose parsed url   auth: null,
+205 verbose parsed url   host: null,
+205 verbose parsed url   port: null,
+205 verbose parsed url   hostname: null,
+205 verbose parsed url   hash: null,
+205 verbose parsed url   search: null,
+205 verbose parsed url   query: null,
+205 verbose parsed url   pathname: '~0.1.0',
+205 verbose parsed url   path: '~0.1.0',
+205 verbose parsed url   href: '~0.1.0' }
+206 verbose addNamed [ 'has-color', '~0.1.0' ]
+207 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+208 silly lockFile c89da621-has-color-0-1-0 has-color@~0.1.0
+209 verbose lock has-color@~0.1.0 /home/vagrant/.npm/c89da621-has-color-0-1-0.lock
+210 verbose cache add name="ansi-styles" spec="~1.0.0" args=["ansi-styles","~1.0.0"]
+211 verbose parsed url { protocol: null,
+211 verbose parsed url   slashes: null,
+211 verbose parsed url   auth: null,
+211 verbose parsed url   host: null,
+211 verbose parsed url   port: null,
+211 verbose parsed url   hostname: null,
+211 verbose parsed url   hash: null,
+211 verbose parsed url   search: null,
+211 verbose parsed url   query: null,
+211 verbose parsed url   pathname: '~1.0.0',
+211 verbose parsed url   path: '~1.0.0',
+211 verbose parsed url   href: '~1.0.0' }
+212 verbose addNamed [ 'ansi-styles', '~1.0.0' ]
+213 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+214 silly lockFile 82a4f1f6-ansi-styles-1-0-0 ansi-styles@~1.0.0
+215 verbose lock ansi-styles@~1.0.0 /home/vagrant/.npm/82a4f1f6-ansi-styles-1-0-0.lock
+216 silly gunzTarPerm extractEntry LICENSE
+217 silly gunzTarPerm modified mode [ 'LICENSE', 388, 420 ]
+218 silly gunzTarPerm extractEntry index.js
+219 silly gunzTarPerm modified mode [ 'index.js', 388, 420 ]
+220 verbose cache add name="strip-ansi" spec="~0.1.0" args=["strip-ansi","~0.1.0"]
+221 verbose parsed url { protocol: null,
+221 verbose parsed url   slashes: null,
+221 verbose parsed url   auth: null,
+221 verbose parsed url   host: null,
+221 verbose parsed url   port: null,
+221 verbose parsed url   hostname: null,
+221 verbose parsed url   hash: null,
+221 verbose parsed url   search: null,
+221 verbose parsed url   query: null,
+221 verbose parsed url   pathname: '~0.1.0',
+221 verbose parsed url   path: '~0.1.0',
+221 verbose parsed url   href: '~0.1.0' }
+222 verbose addNamed [ 'strip-ansi', '~0.1.0' ]
+223 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+224 silly lockFile 0cdb0eaa-strip-ansi-0-1-0 strip-ansi@~0.1.0
+225 verbose lock strip-ansi@~0.1.0 /home/vagrant/.npm/0cdb0eaa-strip-ansi-0-1-0.lock
+226 silly lockFile 0aee3caf-or-blueprints-node-modules-yosay tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay
+227 silly lockFile 0aee3caf-or-blueprints-node-modules-yosay tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay
+228 silly lockFile 6ef07e15-rant-npm-yosay-0-1-0-package-tgz tar:///home/vagrant/.npm/yosay/0.1.0/package.tgz
+229 silly lockFile 6ef07e15-rant-npm-yosay-0-1-0-package-tgz tar:///home/vagrant/.npm/yosay/0.1.0/package.tgz
+230 silly addNameRange { name: 'has-color',
+230 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+230 silly addNameRange   hasData: false }
+231 silly addNameRange { name: 'ansi-styles',
+231 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+231 silly addNameRange   hasData: false }
+232 silly addNameRange { name: 'strip-ansi',
+232 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+232 silly addNameRange   hasData: false }
+233 silly gunzTarPerm extractEntry lib/actions/file.js
+234 silly gunzTarPerm modified mode [ 'lib/actions/file.js', 438, 420 ]
+235 silly gunzTarPerm extractEntry lib/actions/install.js
+236 silly gunzTarPerm modified mode [ 'lib/actions/install.js', 438, 420 ]
+237 info preinstall yosay@0.1.0
+238 verbose url raw has-color
+239 verbose url resolving [ 'https://registry.npmjs.org/', './has-color' ]
+240 verbose url resolved https://registry.npmjs.org/has-color
+241 info trying registry request attempt 1 at 19:34:42
+242 verbose etag "DT10TODV0FV4VSSKH9HJJIIS"
+243 http GET https://registry.npmjs.org/has-color
+244 verbose url raw ansi-styles
+245 verbose url resolving [ 'https://registry.npmjs.org/', './ansi-styles' ]
+246 verbose url resolved https://registry.npmjs.org/ansi-styles
+247 info trying registry request attempt 1 at 19:34:42
+248 verbose etag "89BTWDCZ6UUTTX6GL9L0IKRTG"
+249 http GET https://registry.npmjs.org/ansi-styles
+250 verbose url raw strip-ansi
+251 verbose url resolving [ 'https://registry.npmjs.org/', './strip-ansi' ]
+252 verbose url resolved https://registry.npmjs.org/strip-ansi
+253 info trying registry request attempt 1 at 19:34:42
+254 verbose etag "75LHXYTAYHSVGUDAKW4Q6NTZR"
+255 http GET https://registry.npmjs.org/strip-ansi
+256 verbose readDependencies using package.json deps
+257 verbose readDependencies using package.json deps
+258 silly gunzTarPerm extractEntry mocha.js
+259 silly gunzTarPerm modified mode [ 'mocha.js', 388, 420 ]
+260 verbose cache add [ 'pad-component@0.0.1', null ]
+261 verbose cache add name=undefined spec="pad-component@0.0.1" args=["pad-component@0.0.1",null]
+262 verbose parsed url { protocol: null,
+262 verbose parsed url   slashes: null,
+262 verbose parsed url   auth: null,
+262 verbose parsed url   host: null,
+262 verbose parsed url   port: null,
+262 verbose parsed url   hostname: null,
+262 verbose parsed url   hash: null,
+262 verbose parsed url   search: null,
+262 verbose parsed url   query: null,
+262 verbose parsed url   pathname: 'pad-component@0.0.1',
+262 verbose parsed url   path: 'pad-component@0.0.1',
+262 verbose parsed url   href: 'pad-component@0.0.1' }
+263 verbose cache add [ 'word-wrap@^0.1.2', null ]
+264 verbose cache add name=undefined spec="word-wrap@^0.1.2" args=["word-wrap@^0.1.2",null]
+265 verbose parsed url { protocol: null,
+265 verbose parsed url   slashes: null,
+265 verbose parsed url   auth: null,
+265 verbose parsed url   host: null,
+265 verbose parsed url   port: null,
+265 verbose parsed url   hostname: null,
+265 verbose parsed url   hash: null,
+265 verbose parsed url   search: null,
+265 verbose parsed url   query: null,
+265 verbose parsed url   pathname: 'word-wrap@^0.1.2',
+265 verbose parsed url   path: 'word-wrap@^0.1.2',
+265 verbose parsed url   href: 'word-wrap@^0.1.2' }
+266 verbose cache add [ 'minimist@0.0.9', null ]
+267 verbose cache add name=undefined spec="minimist@0.0.9" args=["minimist@0.0.9",null]
+268 verbose parsed url { protocol: null,
+268 verbose parsed url   slashes: null,
+268 verbose parsed url   auth: null,
+268 verbose parsed url   host: null,
+268 verbose parsed url   port: null,
+268 verbose parsed url   hostname: null,
+268 verbose parsed url   hash: null,
+268 verbose parsed url   search: null,
+268 verbose parsed url   query: null,
+268 verbose parsed url   pathname: 'minimist@0.0.9',
+268 verbose parsed url   path: 'minimist@0.0.9',
+268 verbose parsed url   href: 'minimist@0.0.9' }
+269 silly gunzTarPerm extractEntry Readme.md
+270 silly gunzTarPerm modified mode [ 'Readme.md', 388, 420 ]
+271 verbose cache add name="pad-component" spec="0.0.1" args=["pad-component","0.0.1"]
+272 verbose parsed url { protocol: null,
+272 verbose parsed url   slashes: null,
+272 verbose parsed url   auth: null,
+272 verbose parsed url   host: null,
+272 verbose parsed url   port: null,
+272 verbose parsed url   hostname: null,
+272 verbose parsed url   hash: null,
+272 verbose parsed url   search: null,
+272 verbose parsed url   query: null,
+272 verbose parsed url   pathname: '0.0.1',
+272 verbose parsed url   path: '0.0.1',
+272 verbose parsed url   href: '0.0.1' }
+273 verbose addNamed [ 'pad-component', '0.0.1' ]
+274 verbose addNamed [ '0.0.1', '0.0.1' ]
+275 silly lockFile 88a85d83-pad-component-0-0-1 pad-component@0.0.1
+276 verbose lock pad-component@0.0.1 /home/vagrant/.npm/88a85d83-pad-component-0-0-1.lock
+277 verbose cache add name="word-wrap" spec="^0.1.2" args=["word-wrap","^0.1.2"]
+278 verbose parsed url { protocol: null,
+278 verbose parsed url   slashes: null,
+278 verbose parsed url   auth: null,
+278 verbose parsed url   host: null,
+278 verbose parsed url   port: null,
+278 verbose parsed url   hostname: null,
+278 verbose parsed url   hash: null,
+278 verbose parsed url   search: null,
+278 verbose parsed url   query: null,
+278 verbose parsed url   pathname: '^0.1.2',
+278 verbose parsed url   path: '^0.1.2',
+278 verbose parsed url   href: '^0.1.2' }
+279 verbose addNamed [ 'word-wrap', '^0.1.2' ]
+280 verbose addNamed [ null, '>=0.1.2-0 <0.2.0-0' ]
+281 silly lockFile 6f789978-word-wrap-0-1-2 word-wrap@^0.1.2
+282 verbose lock word-wrap@^0.1.2 /home/vagrant/.npm/6f789978-word-wrap-0-1-2.lock
+283 verbose cache add name="minimist" spec="0.0.9" args=["minimist","0.0.9"]
+284 verbose parsed url { protocol: null,
+284 verbose parsed url   slashes: null,
+284 verbose parsed url   auth: null,
+284 verbose parsed url   host: null,
+284 verbose parsed url   port: null,
+284 verbose parsed url   hostname: null,
+284 verbose parsed url   hash: null,
+284 verbose parsed url   search: null,
+284 verbose parsed url   query: null,
+284 verbose parsed url   pathname: '0.0.9',
+284 verbose parsed url   path: '0.0.9',
+284 verbose parsed url   href: '0.0.9' }
+285 verbose addNamed [ 'minimist', '0.0.9' ]
+286 verbose addNamed [ '0.0.9', '0.0.9' ]
+287 silly lockFile c606e8e2-minimist-0-0-9 minimist@0.0.9
+288 verbose lock minimist@0.0.9 /home/vagrant/.npm/c606e8e2-minimist-0-0-9.lock
+289 silly addNameRange { name: 'word-wrap',
+289 silly addNameRange   range: '>=0.1.2-0 <0.2.0-0',
+289 silly addNameRange   hasData: false }
+290 http 304 https://registry.npmjs.org/strip-ansi
+291 silly registry.get cb [ 304,
+291 silly registry.get   { date: 'Sat, 01 Nov 2014 19:34:43 GMT',
+291 silly registry.get     server: 'Apache',
+291 silly registry.get     via: '1.1 varnish',
+291 silly registry.get     'last-modified': 'Sat, 01 Nov 2014 19:34:43 GMT',
+291 silly registry.get     'cache-control': 'max-age=60',
+291 silly registry.get     etag: '"75LHXYTAYHSVGUDAKW4Q6NTZR"',
+291 silly registry.get     age: '14',
+291 silly registry.get     'x-served-by': 'cache-ams4137-AMS',
+291 silly registry.get     'x-cache': 'HIT',
+291 silly registry.get     'x-cache-hits': '1',
+291 silly registry.get     'x-timer': 'S1414870483.986917,VS0,VE0',
+291 silly registry.get     vary: 'Accept',
+291 silly registry.get     'content-length': '0',
+291 silly registry.get     'keep-alive': 'timeout=10, max=50',
+291 silly registry.get     connection: 'Keep-Alive' } ]
+292 verbose etag strip-ansi from cache
+293 http 304 https://registry.npmjs.org/ansi-styles
+294 silly registry.get cb [ 304,
+294 silly registry.get   { date: 'Sat, 01 Nov 2014 19:34:43 GMT',
+294 silly registry.get     server: 'Apache',
+294 silly registry.get     via: '1.1 varnish',
+294 silly registry.get     'last-modified': 'Sat, 01 Nov 2014 19:34:43 GMT',
+294 silly registry.get     'cache-control': 'max-age=60',
+294 silly registry.get     etag: '"89BTWDCZ6UUTTX6GL9L0IKRTG"',
+294 silly registry.get     age: '47',
+294 silly registry.get     'x-served-by': 'cache-ams4144-AMS',
+294 silly registry.get     'x-cache': 'HIT',
+294 silly registry.get     'x-cache-hits': '1',
+294 silly registry.get     'x-timer': 'S1414870483.994208,VS0,VE0',
+294 silly registry.get     vary: 'Accept',
+294 silly registry.get     'content-length': '0',
+294 silly registry.get     'keep-alive': 'timeout=10, max=50',
+294 silly registry.get     connection: 'Keep-Alive' } ]
+295 verbose etag ansi-styles from cache
+296 verbose url raw pad-component
+297 verbose url resolving [ 'https://registry.npmjs.org/', './pad-component' ]
+298 verbose url resolved https://registry.npmjs.org/pad-component
+299 info trying registry request attempt 1 at 19:34:43
+300 verbose etag "5DIFBZS9KVCVDJSD1YUUSK55Y"
+301 http GET https://registry.npmjs.org/pad-component
+302 verbose url raw word-wrap
+303 verbose url resolving [ 'https://registry.npmjs.org/', './word-wrap' ]
+304 verbose url resolved https://registry.npmjs.org/word-wrap
+305 info trying registry request attempt 1 at 19:34:43
+306 verbose etag "4LETT6RI0XQXFR0X7MPXOUVUP"
+307 http GET https://registry.npmjs.org/word-wrap
+308 verbose url raw minimist
+309 verbose url resolving [ 'https://registry.npmjs.org/', './minimist' ]
+310 verbose url resolved https://registry.npmjs.org/minimist
+311 info trying registry request attempt 1 at 19:34:43
+312 verbose etag "8S97ALNW2MSCJS21SF6POMWG"
+313 http GET https://registry.npmjs.org/minimist
+314 silly addNameRange number 2 { name: 'strip-ansi',
+314 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+314 silly addNameRange   hasData: true }
+315 silly addNameRange versions [ 'strip-ansi',
+315 silly addNameRange   [ '0.1.0',
+315 silly addNameRange     '0.1.1',
+315 silly addNameRange     '0.2.0',
+315 silly addNameRange     '0.2.1',
+315 silly addNameRange     '0.2.2',
+315 silly addNameRange     '0.3.0',
+315 silly addNameRange     '1.0.0',
+315 silly addNameRange     '2.0.0' ] ]
+316 verbose addNamed [ 'strip-ansi', '0.1.1' ]
+317 verbose addNamed [ '0.1.1', '0.1.1' ]
+318 silly lockFile ed6fc536-strip-ansi-0-1-1 strip-ansi@0.1.1
+319 verbose lock strip-ansi@0.1.1 /home/vagrant/.npm/ed6fc536-strip-ansi-0-1-1.lock
+320 silly addNameRange number 2 { name: 'ansi-styles',
+320 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+320 silly addNameRange   hasData: true }
+321 silly addNameRange versions [ 'ansi-styles',
+321 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.2.0', '1.0.0', '1.1.0' ] ]
+322 verbose addNamed [ 'ansi-styles', '1.0.0' ]
+323 verbose addNamed [ '1.0.0', '1.0.0' ]
+324 silly lockFile 92057bb9-ansi-styles-1-0-0 ansi-styles@1.0.0
+325 verbose lock ansi-styles@1.0.0 /home/vagrant/.npm/92057bb9-ansi-styles-1-0-0.lock
+326 silly gunzTarPerm extractEntry bin/_mocha
+327 silly gunzTarPerm modified mode [ 'bin/_mocha', 453, 485 ]
+328 silly gunzTarPerm extractEntry bin/mocha
+329 silly gunzTarPerm modified mode [ 'bin/mocha', 453, 485 ]
+330 silly lockFile ed6fc536-strip-ansi-0-1-1 strip-ansi@0.1.1
+331 silly lockFile ed6fc536-strip-ansi-0-1-1 strip-ansi@0.1.1
+332 silly lockFile 92057bb9-ansi-styles-1-0-0 ansi-styles@1.0.0
+333 silly lockFile 92057bb9-ansi-styles-1-0-0 ansi-styles@1.0.0
+334 silly lockFile 0cdb0eaa-strip-ansi-0-1-0 strip-ansi@~0.1.0
+335 silly lockFile 0cdb0eaa-strip-ansi-0-1-0 strip-ansi@~0.1.0
+336 silly lockFile 82a4f1f6-ansi-styles-1-0-0 ansi-styles@~1.0.0
+337 silly lockFile 82a4f1f6-ansi-styles-1-0-0 ansi-styles@~1.0.0
+338 silly gunzTarPerm extractEntry images/error.png
+339 silly gunzTarPerm modified mode [ 'images/error.png', 388, 420 ]
+340 silly gunzTarPerm extractEntry images/ok.png
+341 silly gunzTarPerm modified mode [ 'images/ok.png', 388, 420 ]
+342 http 200 https://registry.npmjs.org/minimist
+343 silly registry.get cb [ 200,
+343 silly registry.get   { date: 'Sat, 01 Nov 2014 19:34:44 GMT',
+343 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+343 silly registry.get     etag: '"55WWW8UZBF7IOCX0FMXU71A0Z"',
+343 silly registry.get     'content-type': 'application/json',
+343 silly registry.get     'cache-control': 'max-age=60',
+343 silly registry.get     'content-length': '20570',
+343 silly registry.get     'accept-ranges': 'bytes',
+343 silly registry.get     via: '1.1 varnish',
+343 silly registry.get     age: '44',
+343 silly registry.get     'x-served-by': 'cache-ams4148-AMS',
+343 silly registry.get     'x-cache': 'HIT',
+343 silly registry.get     'x-cache-hits': '1',
+343 silly registry.get     'x-timer': 'S1414870484.459872,VS0,VE0',
+343 silly registry.get     vary: 'Accept',
+343 silly registry.get     'keep-alive': 'timeout=10, max=50',
+343 silly registry.get     connection: 'Keep-Alive' } ]
+344 silly lockFile c8fd8b01--org-minimist-minimist-0-0-9-tgz https://registry.npmjs.org/minimist/-/minimist-0.0.9.tgz
+345 verbose lock https://registry.npmjs.org/minimist/-/minimist-0.0.9.tgz /home/vagrant/.npm/c8fd8b01--org-minimist-minimist-0-0-9-tgz.lock
+346 verbose addRemoteTarball [ 'https://registry.npmjs.org/minimist/-/minimist-0.0.9.tgz',
+346 verbose addRemoteTarball   '04e6034ffbf572be2fe42cf1da2c696be0901917' ]
+347 http 304 https://registry.npmjs.org/has-color
+348 silly registry.get cb [ 304,
+348 silly registry.get   { date: 'Sat, 01 Nov 2014 19:34:43 GMT',
+348 silly registry.get     server: 'Apache',
+348 silly registry.get     via: '1.1 varnish',
+348 silly registry.get     'last-modified': 'Sat, 01 Nov 2014 19:34:44 GMT',
+348 silly registry.get     'cache-control': 'max-age=60',
+348 silly registry.get     etag: '"DT10TODV0FV4VSSKH9HJJIIS"',
+348 silly registry.get     age: '0',
+348 silly registry.get     'x-served-by': 'cache-ams4139-AMS',
+348 silly registry.get     'x-cache': 'HIT',
+348 silly registry.get     'x-cache-hits': '1',
+348 silly registry.get     'x-timer': 'S1414870483.932340,VS0,VE761',
+348 silly registry.get     vary: 'Accept',
+348 silly registry.get     'content-length': '0',
+348 silly registry.get     'keep-alive': 'timeout=10, max=50',
+348 silly registry.get     connection: 'Keep-Alive' } ]
+349 verbose etag has-color from cache
+350 info retry fetch attempt 1 at 19:34:43
+351 verbose fetch to= /home/vagrant/tmp/npm-3944-L4dEU2gU/registry.npmjs.org/minimist/-/minimist-0.0.9.tgz
+352 silly gunzTarPerm extractEntry lib/actions/invoke.js
+353 silly gunzTarPerm modified mode [ 'lib/actions/invoke.js', 438, 420 ]
+354 silly gunzTarPerm extractEntry lib/actions/prompt.js
+355 silly gunzTarPerm modified mode [ 'lib/actions/prompt.js', 438, 420 ]
+356 http GET https://registry.npmjs.org/minimist/-/minimist-0.0.9.tgz
+357 silly addNameRange number 2 { name: 'has-color', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+358 silly addNameRange versions [ 'has-color',
+358 silly addNameRange   [ '0.1.0',
+358 silly addNameRange     '0.1.1',
+358 silly addNameRange     '0.1.2',
+358 silly addNameRange     '0.1.3',
+358 silly addNameRange     '0.1.4',
+358 silly addNameRange     '0.1.5',
+358 silly addNameRange     '0.1.6',
+358 silly addNameRange     '0.1.7' ] ]
+359 verbose addNamed [ 'has-color', '0.1.7' ]
+360 verbose addNamed [ '0.1.7', '0.1.7' ]
+361 silly lockFile 397aab71-has-color-0-1-7 has-color@0.1.7
+362 verbose lock has-color@0.1.7 /home/vagrant/.npm/397aab71-has-color-0-1-7.lock
+363 silly lockFile 397aab71-has-color-0-1-7 has-color@0.1.7
+364 silly lockFile 397aab71-has-color-0-1-7 has-color@0.1.7
+365 silly lockFile c89da621-has-color-0-1-0 has-color@~0.1.0
+366 silly lockFile c89da621-has-color-0-1-0 has-color@~0.1.0
+367 silly resolved [ { name: 'strip-ansi',
+367 silly resolved     version: '0.1.1',
+367 silly resolved     description: 'Strip ANSI escape codes (used for colorizing strings in the terminal)',
+367 silly resolved     license: 'MIT',
+367 silly resolved     bin: { 'strip-ansi': 'cli.js' },
+367 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/strip-ansi' },
+367 silly resolved     author:
+367 silly resolved      { name: 'Sindre Sorhus',
+367 silly resolved        email: 'sindresorhus@gmail.com',
+367 silly resolved        url: 'http://sindresorhus.com' },
+367 silly resolved     engines: { node: '>=0.8.0' },
+367 silly resolved     scripts: { test: 'mocha' },
+367 silly resolved     files: [ 'index.js', 'cli.js' ],
+367 silly resolved     keywords:
+367 silly resolved      [ 'strip',
+367 silly resolved        'trim',
+367 silly resolved        'remove',
+367 silly resolved        'ansi',
+367 silly resolved        'styles',
+367 silly resolved        'color',
+367 silly resolved        'colour',
+367 silly resolved        'colors',
+367 silly resolved        'terminal',
+367 silly resolved        'console',
+367 silly resolved        'cli',
+367 silly resolved        'string',
+367 silly resolved        'tty',
+367 silly resolved        'escape',
+367 silly resolved        'formatting',
+367 silly resolved        'rgb',
+367 silly resolved        '256',
+367 silly resolved        'shell',
+367 silly resolved        'xterm',
+367 silly resolved        'log',
+367 silly resolved        'logging',
+367 silly resolved        'command-line',
+367 silly resolved        'text' ],
+367 silly resolved     devDependencies: { mocha: '~1.x' },
+367 silly resolved     bugs: { url: 'https://github.com/sindresorhus/strip-ansi/issues' },
+367 silly resolved     homepage: 'https://github.com/sindresorhus/strip-ansi',
+367 silly resolved     _id: 'strip-ansi@0.1.1',
+367 silly resolved     dist:
+367 silly resolved      { shasum: '39e8a98d044d150660abe4a6808acf70bb7bc991',
+367 silly resolved        tarball: 'http://registry.npmjs.org/strip-ansi/-/strip-ansi-0.1.1.tgz' },
+367 silly resolved     _from: 'strip-ansi@~0.1.0',
+367 silly resolved     _npmVersion: '1.3.15',
+367 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+367 silly resolved     maintainers: [ [Object] ],
+367 silly resolved     directories: {},
+367 silly resolved     _shasum: '39e8a98d044d150660abe4a6808acf70bb7bc991',
+367 silly resolved     _resolved: 'https://registry.npmjs.org/strip-ansi/-/strip-ansi-0.1.1.tgz',
+367 silly resolved     readme: 'ERROR: No README data found!' },
+367 silly resolved   { name: 'ansi-styles',
+367 silly resolved     version: '1.0.0',
+367 silly resolved     description: 'ANSI escape codes for colorizing strings in the terminal',
+367 silly resolved     keywords:
+367 silly resolved      [ 'ansi',
+367 silly resolved        'styles',
+367 silly resolved        'color',
+367 silly resolved        'colour',
+367 silly resolved        'colors',
+367 silly resolved        'terminal',
+367 silly resolved        'console',
+367 silly resolved        'cli',
+367 silly resolved        'string',
+367 silly resolved        'tty',
+367 silly resolved        'escape',
+367 silly resolved        'formatting',
+367 silly resolved        'rgb',
+367 silly resolved        '256',
+367 silly resolved        'shell',
+367 silly resolved        'xterm',
+367 silly resolved        'log',
+367 silly resolved        'logging',
+367 silly resolved        'command-line',
+367 silly resolved        'text' ],
+367 silly resolved     homepage: 'https://github.com/sindresorhus/ansi-styles',
+367 silly resolved     bugs: { url: 'https://github.com/sindresorhus/ansi-styles/issues' },
+367 silly resolved     license: 'MIT',
+367 silly resolved     author:
+367 silly resolved      { name: 'Sindre Sorhus',
+367 silly resolved        email: 'sindresorhus@gmail.com',
+367 silly resolved        url: 'http://sindresorhus.com' },
+367 silly resolved     files: [ 'ansi-styles.js' ],
+367 silly resolved     main: 'ansi-styles',
+367 silly resolved     repository:
+367 silly resolved      { type: 'git',
+367 silly resolved        url: 'git://github.com/sindresorhus/ansi-styles.git' },
+367 silly resolved     scripts: { test: 'mocha' },
+367 silly resolved     devDependencies: { mocha: '~1.12.0' },
+367 silly resolved     engines: { node: '>=0.8.0' },
+367 silly resolved     _id: 'ansi-styles@1.0.0',
+367 silly resolved     dist:
+367 silly resolved      { shasum: 'cb102df1c56f5123eab8b67cd7b98027a0279178',
+367 silly resolved        tarball: 'http://registry.npmjs.org/ansi-styles/-/ansi-styles-1.0.0.tgz' },
+367 silly resolved     _from: 'ansi-styles@~1.0.0',
+367 silly resolved     _npmVersion: '1.3.15',
+367 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+367 silly resolved     maintainers: [ [Object] ],
+367 silly resolved     directories: {},
+367 silly resolved     _shasum: 'cb102df1c56f5123eab8b67cd7b98027a0279178',
+367 silly resolved     _resolved: 'https://registry.npmjs.org/ansi-styles/-/ansi-styles-1.0.0.tgz',
+367 silly resolved     readme: 'ERROR: No README data found!' },
+367 silly resolved   { name: 'has-color',
+367 silly resolved     version: '0.1.7',
+367 silly resolved     description: 'Detect whether a terminal supports color',
+367 silly resolved     license: 'MIT',
+367 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/has-color' },
+367 silly resolved     author:
+367 silly resolved      { name: 'Sindre Sorhus',
+367 silly resolved        email: 'sindresorhus@gmail.com',
+367 silly resolved        url: 'http://sindresorhus.com' },
+367 silly resolved     engines: { node: '>=0.10.0' },
+367 silly resolved     scripts: { test: 'mocha' },
+367 silly resolved     files: [ 'index.js' ],
+367 silly resolved     keywords:
+367 silly resolved      [ 'color',
+367 silly resolved        'colour',
+367 silly resolved        'colors',
+367 silly resolved        'terminal',
+367 silly resolved        'console',
+367 silly resolved        'cli',
+367 silly resolved        'ansi',
+367 silly resolved        'styles',
+367 silly resolved        'tty',
+367 silly resolved        'rgb',
+367 silly resolved        '256',
+367 silly resolved        'shell',
+367 silly resolved        'xterm',
+367 silly resolved        'command-line',
+367 silly resolved        'support',
+367 silly resolved        'capability',
+367 silly resolved        'detect' ],
+367 silly resolved     devDependencies: { mocha: '*' },
+367 silly resolved     bugs: { url: 'https://github.com/sindresorhus/has-color/issues' },
+367 silly resolved     homepage: 'https://github.com/sindresorhus/has-color',
+367 silly resolved     _id: 'has-color@0.1.7',
+367 silly resolved     dist:
+367 silly resolved      { shasum: '67144a5260c34fc3cca677d041daf52fe7b78b2f',
+367 silly resolved        tarball: 'http://registry.npmjs.org/has-color/-/has-color-0.1.7.tgz' },
+367 silly resolved     _from: 'has-color@~0.1.0',
+367 silly resolved     _npmVersion: '1.4.6',
+367 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+367 silly resolved     maintainers: [ [Object] ],
+367 silly resolved     directories: {},
+367 silly resolved     _shasum: '67144a5260c34fc3cca677d041daf52fe7b78b2f',
+367 silly resolved     _resolved: 'https://registry.npmjs.org/has-color/-/has-color-0.1.7.tgz',
+367 silly resolved     readme: 'ERROR: No README data found!' } ]
+368 info install strip-ansi@0.1.1 into /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk
+369 info install ansi-styles@1.0.0 into /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk
+370 info install has-color@0.1.7 into /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk
+371 info installOne strip-ansi@0.1.1
+372 info installOne ansi-styles@1.0.0
+373 info installOne has-color@0.1.7
+374 info /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/strip-ansi unbuild
+375 info /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/ansi-styles unbuild
+376 info /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/has-color unbuild
+377 http 304 https://registry.npmjs.org/word-wrap
+378 silly registry.get cb [ 304,
+378 silly registry.get   { date: 'Sat, 01 Nov 2014 19:34:44 GMT',
+378 silly registry.get     server: 'Apache',
+378 silly registry.get     via: '1.1 varnish',
+378 silly registry.get     'last-modified': 'Sat, 01 Nov 2014 19:34:45 GMT',
+378 silly registry.get     'cache-control': 'max-age=60',
+378 silly registry.get     etag: '"4LETT6RI0XQXFR0X7MPXOUVUP"',
+378 silly registry.get     age: '0',
+378 silly registry.get     'x-served-by': 'cache-ams4139-AMS',
+378 silly registry.get     'x-cache': 'HIT',
+378 silly registry.get     'x-cache-hits': '1',
+378 silly registry.get     'x-timer': 'S1414870484.442144,VS0,VE647',
+378 silly registry.get     vary: 'Accept',
+378 silly registry.get     'content-length': '0',
+378 silly registry.get     'keep-alive': 'timeout=10, max=50',
+378 silly registry.get     connection: 'Keep-Alive' } ]
+379 verbose etag word-wrap from cache
+380 http 304 https://registry.npmjs.org/pad-component
+381 silly registry.get cb [ 304,
+381 silly registry.get   { date: 'Sat, 01 Nov 2014 19:34:44 GMT',
+381 silly registry.get     server: 'Apache',
+381 silly registry.get     via: '1.1 varnish',
+381 silly registry.get     'last-modified': 'Sat, 01 Nov 2014 19:34:45 GMT',
+381 silly registry.get     'cache-control': 'max-age=60',
+381 silly registry.get     etag: '"5DIFBZS9KVCVDJSD1YUUSK55Y"',
+381 silly registry.get     age: '0',
+381 silly registry.get     'x-served-by': 'cache-ams4128-AMS',
+381 silly registry.get     'x-cache': 'HIT',
+381 silly registry.get     'x-cache-hits': '1',
+381 silly registry.get     'x-timer': 'S1414870484.473997,VS0,VE654',
+381 silly registry.get     vary: 'Accept',
+381 silly registry.get     'content-length': '0',
+381 silly registry.get     'keep-alive': 'timeout=10, max=50',
+381 silly registry.get     connection: 'Keep-Alive' } ]
+382 verbose etag pad-component from cache
+383 silly gunzTarPerm extractEntry lib/actions/spawn_command.js
+384 silly gunzTarPerm modified mode [ 'lib/actions/spawn_command.js', 438, 420 ]
+385 silly gunzTarPerm extractEntry lib/actions/string.js
+386 silly gunzTarPerm modified mode [ 'lib/actions/string.js', 438, 420 ]
+387 verbose tar unpack /home/vagrant/.npm/ansi-styles/1.0.0/package.tgz
+388 silly lockFile a53ff212-s-chalk-node-modules-ansi-styles tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/ansi-styles
+389 verbose lock tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/ansi-styles /home/vagrant/.npm/a53ff212-s-chalk-node-modules-ansi-styles.lock
+390 silly lockFile 41f1dc40-pm-ansi-styles-1-0-0-package-tgz tar:///home/vagrant/.npm/ansi-styles/1.0.0/package.tgz
+391 verbose lock tar:///home/vagrant/.npm/ansi-styles/1.0.0/package.tgz /home/vagrant/.npm/41f1dc40-pm-ansi-styles-1-0-0-package-tgz.lock
+392 verbose tar unpack /home/vagrant/.npm/strip-ansi/0.1.1/package.tgz
+393 silly lockFile 09107e84-es-chalk-node-modules-strip-ansi tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/strip-ansi
+394 verbose lock tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/strip-ansi /home/vagrant/.npm/09107e84-es-chalk-node-modules-strip-ansi.lock
+395 silly lockFile a695f52a-npm-strip-ansi-0-1-1-package-tgz tar:///home/vagrant/.npm/strip-ansi/0.1.1/package.tgz
+396 verbose lock tar:///home/vagrant/.npm/strip-ansi/0.1.1/package.tgz /home/vagrant/.npm/a695f52a-npm-strip-ansi-0-1-1-package-tgz.lock
+397 verbose tar unpack /home/vagrant/.npm/has-color/0.1.7/package.tgz
+398 silly lockFile 6ed5bc77-les-chalk-node-modules-has-color tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/has-color
+399 verbose lock tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/has-color /home/vagrant/.npm/6ed5bc77-les-chalk-node-modules-has-color.lock
+400 silly lockFile 2672da01--npm-has-color-0-1-7-package-tgz tar:///home/vagrant/.npm/has-color/0.1.7/package.tgz
+401 verbose lock tar:///home/vagrant/.npm/has-color/0.1.7/package.tgz /home/vagrant/.npm/2672da01--npm-has-color-0-1-7-package-tgz.lock
+402 http 200 https://registry.npmjs.org/minimist/-/minimist-0.0.9.tgz
+403 silly gunzTarPerm modes [ '755', '644' ]
+404 silly gunzTarPerm modes [ '755', '644' ]
+405 silly gunzTarPerm modes [ '755', '644' ]
+406 silly addNameRange number 2 { name: 'word-wrap', range: '>=0.1.2-0 <0.2.0-0', hasData: true }
+407 silly addNameRange versions [ 'word-wrap', [ '0.1.0', '0.1.2', '0.1.3' ] ]
+408 verbose addNamed [ 'word-wrap', '0.1.3' ]
+409 verbose addNamed [ '0.1.3', '0.1.3' ]
+410 silly lockFile b4a9c6fc-word-wrap-0-1-3 word-wrap@0.1.3
+411 verbose lock word-wrap@0.1.3 /home/vagrant/.npm/b4a9c6fc-word-wrap-0-1-3.lock
+412 silly gunzTarPerm extractEntry package.json
+413 silly gunzTarPerm extractEntry package.json
+414 silly lockFile 88a85d83-pad-component-0-0-1 pad-component@0.0.1
+415 silly lockFile 88a85d83-pad-component-0-0-1 pad-component@0.0.1
+416 silly lockFile b4a9c6fc-word-wrap-0-1-3 word-wrap@0.1.3
+417 silly lockFile b4a9c6fc-word-wrap-0-1-3 word-wrap@0.1.3
+418 silly lockFile 6f789978-word-wrap-0-1-2 word-wrap@^0.1.2
+419 silly lockFile 6f789978-word-wrap-0-1-2 word-wrap@^0.1.2
+420 silly gunzTarPerm extractEntry package.json
+421 silly gunzTarPerm extractEntry ansi-styles.js
+422 silly gunzTarPerm extractEntry readme.md
+423 silly lockFile c8fd8b01--org-minimist-minimist-0-0-9-tgz https://registry.npmjs.org/minimist/-/minimist-0.0.9.tgz
+424 silly lockFile c8fd8b01--org-minimist-minimist-0-0-9-tgz https://registry.npmjs.org/minimist/-/minimist-0.0.9.tgz
+425 silly gunzTarPerm extractEntry cli.js
+426 silly gunzTarPerm extractEntry index.js
+427 silly lockFile c606e8e2-minimist-0-0-9 minimist@0.0.9
+428 silly lockFile c606e8e2-minimist-0-0-9 minimist@0.0.9
+429 silly gunzTarPerm extractEntry index.js
+430 silly gunzTarPerm extractEntry readme.md
+431 silly resolved [ { name: 'pad-component',
+431 silly resolved     version: '0.0.1',
+431 silly resolved     description: 'Pad strings to a given length',
+431 silly resolved     keywords: [ 'string', 'pad' ],
+431 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+431 silly resolved     dependencies: {},
+431 silly resolved     devDependencies: { mocha: '*', should: '*' },
+431 silly resolved     component: { scripts: [Object] },
+431 silly resolved     readme: '\n# pad\n\n  Trims string whitespace.\n\n## Installation\n\n```\n$ npm install pad-component\n$ component install component/pad\n```\n\n## API\n\n### pad(str, len[, char])\n\n  Pad `str` on both sides to the given `len`, with optional `char`\n  defaulting to a space.\n\n### pad.left(str, len[, char])\n\n  Pad `str` on the left to the given `len` with optional `char`.\n\n### pad.right(str, len[, char])\n\n  Pad `str` on the right to the given `len` with optional `char`.\n\n## License \n\n  MIT\n',
+431 silly resolved     _id: 'pad-component@0.0.1',
+431 silly resolved     dist:
+431 silly resolved      { shasum: 'ad1f22ce1bf0fdc0d6ddd908af17f351a404b8ac',
+431 silly resolved        tarball: 'http://registry.npmjs.org/pad-component/-/pad-component-0.0.1.tgz' },
+431 silly resolved     _npmVersion: '1.1.61',
+431 silly resolved     _npmUser: { name: 'tjholowaychuk', email: 'tj@vision-media.ca' },
+431 silly resolved     maintainers: [ [Object] ],
+431 silly resolved     directories: {},
+431 silly resolved     _shasum: 'ad1f22ce1bf0fdc0d6ddd908af17f351a404b8ac',
+431 silly resolved     _from: 'pad-component@0.0.1',
+431 silly resolved     _resolved: 'https://registry.npmjs.org/pad-component/-/pad-component-0.0.1.tgz' },
+431 silly resolved   { name: 'word-wrap',
+431 silly resolved     description: 'Wrap words to a specified length.',
+431 silly resolved     version: '0.1.3',
+431 silly resolved     homepage: 'https://github.com/jonschlinkert/word-wrap',
+431 silly resolved     author:
+431 silly resolved      { name: 'Jon Schlinkert',
+431 silly resolved        url: 'http://github.com/jonschlinkert/' },
+431 silly resolved     repository:
+431 silly resolved      { type: 'git',
+431 silly resolved        url: 'git://github.com/jonschlinkert/word-wrap.git' },
+431 silly resolved     bugs: { url: 'https://github.com/jonschlinkert/word-wrap/issues' },
+431 silly resolved     licenses: [ [Object] ],
+431 silly resolved     main: 'index.js',
+431 silly resolved     keywords:
+431 silly resolved      [ 'word-wrap',
+431 silly resolved        'wrap',
+431 silly resolved        'words',
+431 silly resolved        'text',
+431 silly resolved        'soft wrap',
+431 silly resolved        'line break',
+431 silly resolved        'new line' ],
+431 silly resolved     engines: { node: '>=0.8' },
+431 silly resolved     scripts: { test: 'mocha -R test' },
+431 silly resolved     devDependencies: { verb: '~0.2.2' },
+431 silly resolved     _id: 'word-wrap@0.1.3',
+431 silly resolved     _shasum: '745523aa741b12bf23144d293795c6197b33eb1e',
+431 silly resolved     _from: 'word-wrap@^0.1.2',
+431 silly resolved     _npmVersion: '1.4.9',
+431 silly resolved     _npmUser: { name: 'jonschlinkert', email: 'github@sellside.com' },
+431 silly resolved     maintainers: [ [Object] ],
+431 silly resolved     dist:
+431 silly resolved      { shasum: '745523aa741b12bf23144d293795c6197b33eb1e',
+431 silly resolved        tarball: 'http://registry.npmjs.org/word-wrap/-/word-wrap-0.1.3.tgz' },
+431 silly resolved     directories: {},
+431 silly resolved     _resolved: 'https://registry.npmjs.org/word-wrap/-/word-wrap-0.1.3.tgz',
+431 silly resolved     readme: 'ERROR: No README data found!' },
+431 silly resolved   { name: 'minimist',
+431 silly resolved     version: '0.0.9',
+431 silly resolved     description: 'parse argument options',
+431 silly resolved     main: 'index.js',
+431 silly resolved     devDependencies: { tape: '~1.0.4', tap: '~0.4.0' },
+431 silly resolved     scripts: { test: 'tap test/*.js' },
+431 silly resolved     testling: { files: 'test/*.js', browsers: [Object] },
+431 silly resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+431 silly resolved     homepage: 'https://github.com/substack/minimist',
+431 silly resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+431 silly resolved     author:
+431 silly resolved      { name: 'James Halliday',
+431 silly resolved        email: 'mail@substack.net',
+431 silly resolved        url: 'http://substack.net' },
+431 silly resolved     license: 'MIT',
+431 silly resolved     bugs: { url: 'https://github.com/substack/minimist/issues' },
+431 silly resolved     _id: 'minimist@0.0.9',
+431 silly resolved     dist:
+431 silly resolved      { shasum: '04e6034ffbf572be2fe42cf1da2c696be0901917',
+431 silly resolved        tarball: 'http://registry.npmjs.org/minimist/-/minimist-0.0.9.tgz' },
+431 silly resolved     _from: 'minimist@0.0.9',
+431 silly resolved     _npmVersion: '1.4.3',
+431 silly resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+431 silly resolved     maintainers: [ [Object] ],
+431 silly resolved     directories: {},
+431 silly resolved     _shasum: '04e6034ffbf572be2fe42cf1da2c696be0901917',
+431 silly resolved     _resolved: 'https://registry.npmjs.org/minimist/-/minimist-0.0.9.tgz' } ]
+432 info install pad-component@0.0.1 into /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay
+433 info install word-wrap@0.1.3 into /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay
+434 info install minimist@0.0.9 into /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay
+435 info installOne pad-component@0.0.1
+436 info installOne word-wrap@0.1.3
+437 info installOne minimist@0.0.9
+438 info /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay/node_modules/pad-component unbuild
+439 info /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay/node_modules/word-wrap unbuild
+440 verbose tar unpack /home/vagrant/.npm/pad-component/0.0.1/package.tgz
+441 silly lockFile 6a1b0f38-yosay-node-modules-pad-component tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay/node_modules/pad-component
+442 verbose lock tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay/node_modules/pad-component /home/vagrant/.npm/6a1b0f38-yosay-node-modules-pad-component.lock
+443 silly lockFile 52c021b9--pad-component-0-0-1-package-tgz tar:///home/vagrant/.npm/pad-component/0.0.1/package.tgz
+444 verbose lock tar:///home/vagrant/.npm/pad-component/0.0.1/package.tgz /home/vagrant/.npm/52c021b9--pad-component-0-0-1-package-tgz.lock
+445 verbose tar unpack /home/vagrant/.npm/word-wrap/0.1.3/package.tgz
+446 silly lockFile cbdd31a2-les-yosay-node-modules-word-wrap tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay/node_modules/word-wrap
+447 verbose lock tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay/node_modules/word-wrap /home/vagrant/.npm/cbdd31a2-les-yosay-node-modules-word-wrap.lock
+448 silly lockFile af17c512--npm-word-wrap-0-1-3-package-tgz tar:///home/vagrant/.npm/word-wrap/0.1.3/package.tgz
+449 verbose lock tar:///home/vagrant/.npm/word-wrap/0.1.3/package.tgz /home/vagrant/.npm/af17c512--npm-word-wrap-0-1-3-package-tgz.lock
+450 info /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay/node_modules/minimist unbuild
+451 silly gunzTarPerm extractEntry readme.md
+452 silly gunzTarPerm modes [ '755', '644' ]
+453 silly gunzTarPerm modes [ '755', '644' ]
+454 verbose tar unpack /home/vagrant/.npm/minimist/0.0.9/package.tgz
+455 silly lockFile 47edaa14-ules-yosay-node-modules-minimist tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay/node_modules/minimist
+456 verbose lock tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay/node_modules/minimist /home/vagrant/.npm/47edaa14-ules-yosay-node-modules-minimist.lock
+457 silly lockFile 2c8c2c0e-t-npm-minimist-0-0-9-package-tgz tar:///home/vagrant/.npm/minimist/0.0.9/package.tgz
+458 verbose lock tar:///home/vagrant/.npm/minimist/0.0.9/package.tgz /home/vagrant/.npm/2c8c2c0e-t-npm-minimist-0-0-9-package-tgz.lock
+459 silly gunzTarPerm extractEntry package.json
+460 silly gunzTarPerm modes [ '755', '644' ]
+461 silly gunzTarPerm extractEntry lib/actions/user.js
+462 silly gunzTarPerm modified mode [ 'lib/actions/user.js', 438, 420 ]
+463 silly gunzTarPerm extractEntry lib/actions/wiring.js
+464 silly gunzTarPerm modified mode [ 'lib/actions/wiring.js', 438, 420 ]
+465 silly gunzTarPerm extractEntry package.json
+466 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+467 silly gunzTarPerm extractEntry .npmignore
+468 silly gunzTarPerm extractEntry index.js
+469 silly gunzTarPerm extractEntry package.json
+470 silly gunzTarPerm extractEntry .npmignore
+471 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+472 silly gunzTarPerm extractEntry README.md
+473 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+474 silly gunzTarPerm extractEntry LICENSE
+475 silly gunzTarPerm extractEntry index.js
+476 silly gunzTarPerm extractEntry lib/env/adapter.js
+477 silly gunzTarPerm modified mode [ 'lib/env/adapter.js', 438, 420 ]
+478 silly gunzTarPerm extractEntry lib/env/index.js
+479 silly gunzTarPerm modified mode [ 'lib/env/index.js', 438, 420 ]
+480 silly gunzTarPerm extractEntry component.json
+481 silly gunzTarPerm extractEntry History.md
+482 silly gunzTarPerm extractEntry index.js
+483 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+484 silly gunzTarPerm extractEntry .verbrc.md
+485 silly gunzTarPerm modified mode [ '.verbrc.md', 438, 420 ]
+486 silly lockFile 6ed5bc77-les-chalk-node-modules-has-color tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/has-color
+487 silly lockFile 6ed5bc77-les-chalk-node-modules-has-color tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/has-color
+488 silly lockFile a53ff212-s-chalk-node-modules-ansi-styles tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/ansi-styles
+489 silly lockFile a53ff212-s-chalk-node-modules-ansi-styles tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/ansi-styles
+490 silly lockFile 2672da01--npm-has-color-0-1-7-package-tgz tar:///home/vagrant/.npm/has-color/0.1.7/package.tgz
+491 silly lockFile 2672da01--npm-has-color-0-1-7-package-tgz tar:///home/vagrant/.npm/has-color/0.1.7/package.tgz
+492 silly gunzTarPerm extractEntry .travis.yml
+493 silly gunzTarPerm extractEntry example/parse.js
+494 silly lockFile 41f1dc40-pm-ansi-styles-1-0-0-package-tgz tar:///home/vagrant/.npm/ansi-styles/1.0.0/package.tgz
+495 silly lockFile 41f1dc40-pm-ansi-styles-1-0-0-package-tgz tar:///home/vagrant/.npm/ansi-styles/1.0.0/package.tgz
+496 silly gunzTarPerm extractEntry Makefile
+497 silly gunzTarPerm extractEntry Readme.md
+498 info preinstall ansi-styles@1.0.0
+499 info preinstall has-color@0.1.7
+500 silly gunzTarPerm extractEntry lib/env/resolver.js
+501 silly gunzTarPerm modified mode [ 'lib/env/resolver.js', 438, 420 ]
+502 silly gunzTarPerm extractEntry lib/env/store.js
+503 silly gunzTarPerm modified mode [ 'lib/env/store.js', 438, 420 ]
+504 silly gunzTarPerm extractEntry LICENSE-MIT
+505 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 438, 420 ]
+506 silly gunzTarPerm extractEntry .jshintrc
+507 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+508 verbose readDependencies using package.json deps
+509 verbose readDependencies using package.json deps
+510 verbose readDependencies using package.json deps
+511 silly resolved []
+512 verbose about to build /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/ansi-styles
+513 info build /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/ansi-styles
+514 verbose linkStuff [ false,
+514 verbose linkStuff   false,
+514 verbose linkStuff   false,
+514 verbose linkStuff   '/vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules' ]
+515 info linkStuff ansi-styles@1.0.0
+516 verbose linkBins ansi-styles@1.0.0
+517 verbose linkMans ansi-styles@1.0.0
+518 verbose rebuildBundles ansi-styles@1.0.0
+519 silly lockFile 09107e84-es-chalk-node-modules-strip-ansi tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/strip-ansi
+520 silly lockFile 09107e84-es-chalk-node-modules-strip-ansi tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/strip-ansi
+521 verbose readDependencies using package.json deps
+522 silly resolved []
+523 verbose about to build /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/has-color
+524 info build /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/has-color
+525 verbose linkStuff [ false,
+525 verbose linkStuff   false,
+525 verbose linkStuff   false,
+525 verbose linkStuff   '/vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules' ]
+526 info linkStuff has-color@0.1.7
+527 verbose linkBins has-color@0.1.7
+528 verbose linkMans has-color@0.1.7
+529 verbose rebuildBundles has-color@0.1.7
+530 silly lockFile a695f52a-npm-strip-ansi-0-1-1-package-tgz tar:///home/vagrant/.npm/strip-ansi/0.1.1/package.tgz
+531 silly lockFile a695f52a-npm-strip-ansi-0-1-1-package-tgz tar:///home/vagrant/.npm/strip-ansi/0.1.1/package.tgz
+532 info install ansi-styles@1.0.0
+533 info install has-color@0.1.7
+534 silly gunzTarPerm extractEntry readme.markdown
+535 silly gunzTarPerm extractEntry test/dash.js
+536 info postinstall ansi-styles@1.0.0
+537 info postinstall has-color@0.1.7
+538 info preinstall strip-ansi@0.1.1
+539 verbose readDependencies using package.json deps
+540 silly gunzTarPerm extractEntry bower.json
+541 silly gunzTarPerm modified mode [ 'bower.json', 438, 420 ]
+542 silly gunzTarPerm extractEntry docs/usage.md
+543 silly gunzTarPerm modified mode [ 'docs/usage.md', 438, 420 ]
+544 verbose readDependencies using package.json deps
+545 silly resolved []
+546 verbose about to build /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/strip-ansi
+547 info build /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/strip-ansi
+548 verbose linkStuff [ false,
+548 verbose linkStuff   false,
+548 verbose linkStuff   false,
+548 verbose linkStuff   '/vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules' ]
+549 info linkStuff strip-ansi@0.1.1
+550 verbose linkBins strip-ansi@0.1.1
+551 verbose link bins [ { 'strip-ansi': 'cli.js' },
+551 verbose link bins   '/vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/.bin',
+551 verbose link bins   false ]
+552 verbose linkMans strip-ansi@0.1.1
+553 verbose rebuildBundles strip-ansi@0.1.1
+554 silly gunzTarPerm extractEntry lib/test/assert.js
+555 silly gunzTarPerm modified mode [ 'lib/test/assert.js', 438, 420 ]
+556 silly gunzTarPerm extractEntry lib/test/helpers.js
+557 silly gunzTarPerm modified mode [ 'lib/test/helpers.js', 438, 420 ]
+558 info /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/strip-ansi unbuild
+559 info preuninstall strip-ansi@0.1.1
+560 info uninstall strip-ansi@0.1.1
+561 silly gunzTarPerm extractEntry .gitattributes
+562 silly gunzTarPerm modified mode [ '.gitattributes', 438, 420 ]
+563 verbose false,/vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules,/vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules unbuild strip-ansi@0.1.1
+564 verbose /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk/node_modules/.bin,[object Object] binRoot
+565 silly gunzTarPerm extractEntry test/default_bool.js
+566 silly gunzTarPerm extractEntry test/dotted.js
+567 silly gunzTarPerm extractEntry test/long.js
+568 silly gunzTarPerm extractEntry test/parse.js
+569 silly gunzTarPerm extractEntry test/parse_modified.js
+570 silly gunzTarPerm extractEntry test/short.js
+571 silly gunzTarPerm extractEntry test/whitespace.js
+572 silly gunzTarPerm extractEntry lib/util/common.js
+573 silly gunzTarPerm modified mode [ 'lib/util/common.js', 438, 420 ]
+574 silly gunzTarPerm extractEntry lib/util/conflicter.js
+575 silly gunzTarPerm modified mode [ 'lib/util/conflicter.js', 438, 420 ]
+576 info postuninstall strip-ansi@0.1.1
+577 verbose about to build /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk
+578 info /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/chalk unbuild
+579 info preuninstall chalk@0.4.0
+580 silly gunzTarPerm extractEntry lib/util/engines.js
+581 silly gunzTarPerm modified mode [ 'lib/util/engines.js', 438, 420 ]
+582 silly gunzTarPerm extractEntry lib/util/log.js
+583 silly gunzTarPerm modified mode [ 'lib/util/log.js', 438, 420 ]
+584 info uninstall chalk@0.4.0
+585 verbose true,/vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules,/vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules unbuild chalk@0.4.0
+586 info postuninstall chalk@0.4.0
+587 silly gunzTarPerm extractEntry lib/util/storage.js
+588 silly gunzTarPerm modified mode [ 'lib/util/storage.js', 438, 420 ]
+589 silly gunzTarPerm extractEntry jsdoc.json
+590 silly gunzTarPerm modified mode [ 'jsdoc.json', 438, 420 ]
+591 silly lockFile 6a1b0f38-yosay-node-modules-pad-component tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay/node_modules/pad-component
+592 silly lockFile 6a1b0f38-yosay-node-modules-pad-component tar:///vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints/node_modules/yosay/node_modules/pad-component
+593 silly lockFile 52c021b9--pad-component-0-0-1-package-tgz tar:///home/vagrant/.npm/pad-component/0.0.1/package.tgz
+594 silly lockFile 52c021b9--pad-component-0-0-1-package-tgz tar:///home/vagrant/.npm/pad-component/0.0.1/package.tgz
+595 silly gunzTarPerm extractEntry benchmark/env.js
+596 silly gunzTarPerm modified mode [ 'benchmark/env.js', 438, 420 ]
+597 silly gunzTarPerm extractEntry benchmark/module.js
+598 silly gunzTarPerm modified mode [ 'benchmark/module.js', 438, 420 ]
+599 info preinstall pad-component@0.0.1
+600 verbose readDependencies using package.json deps
+601 error Error: UNKNOWN, symlink '../strip-ansi/cli.js'
+602 error If you need help, you may report this *entire* log,
+602 error including the npm and node versions, at:
+602 error     <http://github.com/npm/npm/issues>
+603 error System Linux 3.13.0-24-generic
+604 error command "/usr/bin/node" "/usr/bin/npm" "link"
+605 error cwd /vagrant/sites/regeneration.dev/public/blueprints/generator-blueprints
+606 error node -v v0.10.29
+607 error npm -v 1.4.14
+608 error path ../strip-ansi/cli.js
+609 error code UNKNOWN
+610 error errno -1
+611 verbose exit [ -1, true ]
